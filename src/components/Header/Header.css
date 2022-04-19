@@ -1,0 +1,14 @@
+nav a {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+#icons img {
+  width: 22px !important;
+  height: 22px !important;
+  margin: 0 15px;
+}
+a:hover {
+  color: #abd373;
+}

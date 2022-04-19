@@ -1,0 +1,46 @@
+form{
+  width: 350px;
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+  font-family: "lemonada";
+}
+.inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 14px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #333;
+  font-family: "lemonada";
+}
+
+.inputBox input:focus ~ span,
+.inputBox input:valid ~ span,
+.inputBox textarea:focus ~ span,
+.inputBox textarea:valid ~ span {
+  color: red;
+  font-size: 10px;
+  transform: translateY(-20px);
+}
+#btn {
+  width: 100px;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  background: #00bcd4;
+}
+
+.con-right {
+  width: 30%;
+  height: 470px !important;
+}
